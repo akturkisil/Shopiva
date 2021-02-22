@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.4.1)
+  - lottie-ios (3.2.0)
+  - SCLAlertView (0.8)
+  - TextFieldEffects (1.6.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - lottie-ios
+  - SCLAlertView
+  - TextFieldEffects
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - lottie-ios
+    - SCLAlertView
+    - TextFieldEffects
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  lottie-ios: b6b911246246a90a1d25e7388afe6d9ef003d293
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
+
+PODFILE CHECKSUM: 5bb6204e99a323a2077b4f7a5a9e99c8e72faef6
+
+COCOAPODS: 1.10.1

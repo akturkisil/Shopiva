@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B2E0AC00D272E0FEAC2B58A /* Pods_Shopiva.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CB7362B20343906406F088 /* Pods_Shopiva.framework */; };
+		F9310BC225C9EBE80054C836 /* OrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9310BC125C9EBE70054C836 /* OrderResponse.swift */; };
+		F9310BC525C9EDB20054C836 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9310BC425C9EDB20054C836 /* OrderCell.swift */; };
+		F9754B6A25D080F0009D08F8 /* splash.json in Resources */ = {isa = PBXBuildFile; fileRef = F9754B6925D080F0009D08F8 /* splash.json */; };
+		F9EDA9FB25C71AD3000E2115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDA9FA25C71AD3000E2115 /* AppDelegate.swift */; };
+		F9EDA9FD25C71AD3000E2115 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDA9FC25C71AD3000E2115 /* SceneDelegate.swift */; };
+		F9EDA9FF25C71AD3000E2115 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDA9FE25C71AD3000E2115 /* SplashScreenVC.swift */; };
+		F9EDAA0225C71AD3000E2115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EDAA0025C71AD3000E2115 /* Main.storyboard */; };
+		F9EDAA0425C71AD5000E2115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9EDAA0325C71AD5000E2115 /* Assets.xcassets */; };
+		F9EDAA1825C71BE9000E2115 /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDAA1725C71BE9000E2115 /* RegisterResponse.swift */; };
+		F9EDAA1B25C71BF8000E2115 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDAA1A25C71BF8000E2115 /* LoginResponse.swift */; };
+		F9EDAA1E25C71C05000E2115 /* ProductsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDAA1D25C71C05000E2115 /* ProductsResponse.swift */; };
+		F9EDAA2125C71C24000E2115 /* ProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDAA2025C71C24000E2115 /* ProductsCell.swift */; };
+		F9EDAA2425C71C5A000E2115 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDAA2325C71C5A000E2115 /* LoginVC.swift */; };
+		F9EDAA2725C71C6B000E2115 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDAA2625C71C6B000E2115 /* RegisterVC.swift */; };
+		F9EDAA2A25C71C7F000E2115 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDAA2925C71C7F000E2115 /* ProductsVC.swift */; };
+		F9EDAA2D25C71C8D000E2115 /* MyOrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDAA2C25C71C8D000E2115 /* MyOrdersVC.swift */; };
+		F9EDAA3025C71CA1000E2115 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDAA2F25C71CA1000E2115 /* ProductDetailVC.swift */; };
+		F9EDAA4D25C73B5F000E2115 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDAA4C25C73B5F000E2115 /* RoundedButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10CB7362B20343906406F088 /* Pods_Shopiva.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shopiva.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D696D02E31D9EDB82D70F0 /* Pods-Shopiva.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopiva.release.xcconfig"; path = "Target Support Files/Pods-Shopiva/Pods-Shopiva.release.xcconfig"; sourceTree = "<group>"; };
+		48055AEB48808FF5FD9A38C8 /* Pods-Shopiva.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopiva.debug.xcconfig"; path = "Target Support Files/Pods-Shopiva/Pods-Shopiva.debug.xcconfig"; sourceTree = "<group>"; };
+		F9310BC125C9EBE70054C836 /* OrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderResponse.swift; sourceTree = "<group>"; };
+		F9310BC425C9EDB20054C836 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		F9754B6925D080F0009D08F8 /* splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splash.json; sourceTree = "<group>"; };
+		F9EDA9F725C71AD3000E2115 /* Shopiva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopiva.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9EDA9FA25C71AD3000E2115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9EDA9FC25C71AD3000E2115 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9EDA9FE25C71AD3000E2115 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
+		F9EDAA0125C71AD3000E2115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9EDAA0325C71AD5000E2115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9EDAA0825C71AD5000E2115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9EDAA1725C71BE9000E2115 /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
+		F9EDAA1A25C71BF8000E2115 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		F9EDAA1D25C71C05000E2115 /* ProductsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsResponse.swift; sourceTree = "<group>"; };
+		F9EDAA2025C71C24000E2115 /* ProductsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCell.swift; sourceTree = "<group>"; };
+		F9EDAA2325C71C5A000E2115 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		F9EDAA2625C71C6B000E2115 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		F9EDAA2925C71C7F000E2115 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		F9EDAA2C25C71C8D000E2115 /* MyOrdersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersVC.swift; sourceTree = "<group>"; };
+		F9EDAA2F25C71CA1000E2115 /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
+		F9EDAA4C25C73B5F000E2115 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9EDA9F425C71AD3000E2115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2E0AC00D272E0FEAC2B58A /* Pods_Shopiva.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01850F897ECD2607B1FD44AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10CB7362B20343906406F088 /* Pods_Shopiva.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4506F98F205A8F819430A105 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48055AEB48808FF5FD9A38C8 /* Pods-Shopiva.debug.xcconfig */,
+				19D696D02E31D9EDB82D70F0 /* Pods-Shopiva.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9EDA9EE25C71AD3000E2115 = {
+			isa = PBXGroup;
+			children = (
+				F9EDA9F925C71AD3000E2115 /* Shopiva */,
+				F9EDA9F825C71AD3000E2115 /* Products */,
+				4506F98F205A8F819430A105 /* Pods */,
+				01850F897ECD2607B1FD44AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9EDA9F825C71AD3000E2115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9EDA9F725C71AD3000E2115 /* Shopiva.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9EDA9F925C71AD3000E2115 /* Shopiva */ = {
+			isa = PBXGroup;
+			children = (
+				F9754B6925D080F0009D08F8 /* splash.json */,
+				F9EDA9FA25C71AD3000E2115 /* AppDelegate.swift */,
+				F9EDA9FC25C71AD3000E2115 /* SceneDelegate.swift */,
+				F9EDAA1225C71B1C000E2115 /* Model */,
+				F9EDAA1325C71B23000E2115 /* View */,
+				F9EDAA1425C71B28000E2115 /* Storyboard */,
+				F9EDAA1525C71B2F000E2115 /* Controller */,
+				F9EDAA0325C71AD5000E2115 /* Assets.xcassets */,
+				F9EDAA0825C71AD5000E2115 /* Info.plist */,
+			);
+			path = Shopiva;
+			sourceTree = "<group>";
+		};
+		F9EDAA1225C71B1C000E2115 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9EDAA1725C71BE9000E2115 /* RegisterResponse.swift */,
+				F9EDAA1A25C71BF8000E2115 /* LoginResponse.swift */,
+				F9EDAA1D25C71C05000E2115 /* ProductsResponse.swift */,
+				F9310BC125C9EBE70054C836 /* OrderResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9EDAA1325C71B23000E2115 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9EDAA4C25C73B5F000E2115 /* RoundedButton.swift */,
+				F9EDAA1625C71BA1000E2115 /* Tableview Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9EDAA1425C71B28000E2115 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F9EDAA0025C71AD3000E2115 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F9EDAA1525C71B2F000E2115 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F9EDA9FE25C71AD3000E2115 /* SplashScreenVC.swift */,
+				F9EDAA2325C71C5A000E2115 /* LoginVC.swift */,
+				F9EDAA2625C71C6B000E2115 /* RegisterVC.swift */,
+				F9EDAA2925C71C7F000E2115 /* ProductsVC.swift */,
+				F9EDAA2F25C71CA1000E2115 /* ProductDetailVC.swift */,
+				F9EDAA2C25C71C8D000E2115 /* MyOrdersVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F9EDAA1625C71BA1000E2115 /* Tableview Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F9EDAA2025C71C24000E2115 /* ProductsCell.swift */,
+				F9310BC425C9EDB20054C836 /* OrderCell.swift */,
+			);
+			path = "Tableview Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9EDA9F625C71AD3000E2115 /* Shopiva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9EDAA0B25C71AD5000E2115 /* Build configuration list for PBXNativeTarget "Shopiva" */;
+			buildPhases = (
+				B44999119400B623C6389A9A /* [CP] Check Pods Manifest.lock */,
+				F9EDA9F325C71AD3000E2115 /* Sources */,
+				F9EDA9F425C71AD3000E2115 /* Frameworks */,
+				F9EDA9F525C71AD3000E2115 /* Resources */,
+				8BEB55A3D94C41BC5A66A704 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shopiva;
+			productName = Shopiva;
+			productReference = F9EDA9F725C71AD3000E2115 /* Shopiva.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9EDA9EF25C71AD3000E2115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F9EDA9F625C71AD3000E2115 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = F9EDA9F225C71AD3000E2115 /* Build configuration list for PBXProject "Shopiva" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9EDA9EE25C71AD3000E2115;
+			productRefGroup = F9EDA9F825C71AD3000E2115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9EDA9F625C71AD3000E2115 /* Shopiva */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9EDA9F525C71AD3000E2115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9754B6A25D080F0009D08F8 /* splash.json in Resources */,
+				F9EDAA0425C71AD5000E2115 /* Assets.xcassets in Resources */,
+				F9EDAA0225C71AD3000E2115 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BEB55A3D94C41BC5A66A704 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shopiva/Pods-Shopiva-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shopiva/Pods-Shopiva-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shopiva/Pods-Shopiva-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B44999119400B623C6389A9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shopiva-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9EDA9F325C71AD3000E2115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EDAA2A25C71C7F000E2115 /* ProductsVC.swift in Sources */,
+				F9EDAA3025C71CA1000E2115 /* ProductDetailVC.swift in Sources */,
+				F9EDA9FF25C71AD3000E2115 /* SplashScreenVC.swift in Sources */,
+				F9EDAA1825C71BE9000E2115 /* RegisterResponse.swift in Sources */,
+				F9EDAA2425C71C5A000E2115 /* LoginVC.swift in Sources */,
+				F9EDAA2125C71C24000E2115 /* ProductsCell.swift in Sources */,
+				F9310BC525C9EDB20054C836 /* OrderCell.swift in Sources */,
+				F9EDA9FB25C71AD3000E2115 /* AppDelegate.swift in Sources */,
+				F9EDA9FD25C71AD3000E2115 /* SceneDelegate.swift in Sources */,
+				F9EDAA2725C71C6B000E2115 /* RegisterVC.swift in Sources */,
+				F9EDAA1E25C71C05000E2115 /* ProductsResponse.swift in Sources */,
+				F9310BC225C9EBE80054C836 /* OrderResponse.swift in Sources */,
+				F9EDAA4D25C73B5F000E2115 /* RoundedButton.swift in Sources */,
+				F9EDAA1B25C71BF8000E2115 /* LoginResponse.swift in Sources */,
+				F9EDAA2D25C71C8D000E2115 /* MyOrdersVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9EDAA0025C71AD3000E2115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9EDAA0125C71AD3000E2115 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9EDAA0925C71AD5000E2115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9EDAA0A25C71AD5000E2115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9EDAA0C25C71AD5000E2115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48055AEB48808FF5FD9A38C8 /* Pods-Shopiva.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6LSPH83J7;
+				INFOPLIST_FILE = Shopiva/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.works.Shopiva;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9EDAA0D25C71AD5000E2115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19D696D02E31D9EDB82D70F0 /* Pods-Shopiva.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6LSPH83J7;
+				INFOPLIST_FILE = Shopiva/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.works.Shopiva;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9EDA9F225C71AD3000E2115 /* Build configuration list for PBXProject "Shopiva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EDAA0925C71AD5000E2115 /* Debug */,
+				F9EDAA0A25C71AD5000E2115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9EDAA0B25C71AD5000E2115 /* Build configuration list for PBXNativeTarget "Shopiva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EDAA0C25C71AD5000E2115 /* Debug */,
+				F9EDAA0D25C71AD5000E2115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9EDA9EF25C71AD3000E2115 /* Project object */;
+}
